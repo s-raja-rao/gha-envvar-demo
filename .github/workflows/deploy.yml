@@ -11,7 +11,7 @@ jobs:
     env:
       MONGODB_CLUSTER_ADDRESS: cluster0.ckop5sy.mongodb.net
       MONGODB_USERNAME: s-raja-rao
-      MONGODB_PASSWORD: r@51641AIML
+      MONGODB_PASSWORD: 8oKSZNIF4tpLqKVj
       PORT: 8080
     runs-on: ubuntu-latest
     steps:
