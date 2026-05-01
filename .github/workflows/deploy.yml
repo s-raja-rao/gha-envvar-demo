@@ -2,7 +2,7 @@ name: Deployment
 on:
   push:
     branches:
-      - main
+      - master
       - dev
 env:
   MONGODB_DB_NAME: gha-envvar-demo
@@ -36,6 +36,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Output information
-        run: |        
-          echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}"
+        run: |   
           echo "MONGODB_DB_NAME: ${{ env.MONGODB_DB_NAME }}"
