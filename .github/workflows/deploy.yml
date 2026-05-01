@@ -7,6 +7,7 @@ on:
 env:
   MONGODB_DB_NAME: gha-envvar-demo
 jobs:
+  environment: testing
   test:
     env:
       MONGODB_CLUSTER_ADDRESS: cluster0.ckop5sy.mongodb.net
